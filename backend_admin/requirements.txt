@@ -1,4 +1,4 @@
-﻿# 02_supabase-ai-backend 공통 패키지 목록
+# 02_supabase-ai-backend 공통 패키지 목록
 #
 # 이 파일은 02_supabase-ai-backend 전체 과정에서 사용하는 공통 .venv에 설치할 패키지를 모아 둔 파일입니다.
 # 하위 폴더마다 requirements.txt를 따로 만들지 않고, 최상위 requirements.txt 하나로 관리합니다.
@@ -51,7 +51,7 @@ starlette==1.2.1
 # - 01_python-git-foundation/02_python-advanced: 비동기 개념 이해와 연결
 # - 01_fastapi-backend: async endpoint 실행
 # - 02_llm-api-integration: 비동기 API 호출 구조 이해
-anyio==4.13.0
+anyio==4.14.2
 
 # Uvicorn이 HTTP 통신을 처리할 때 사용하는 저수준 HTTP 라이브러리입니다.
 # 직접 코딩에서 사용하는 패키지는 아니지만 FastAPI 서버 실행에 필요합니다.
