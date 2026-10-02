@@ -36,7 +36,7 @@ pyasn1==0.6.4
 pyasn1-modules==0.4.2
 requests==2.34.2
 charset-normalizer==3.4.9
-urllib3==2.7.0
+urllib3==2.8.0
 tenacity==9.1.4
 distro==1.9.0
 
