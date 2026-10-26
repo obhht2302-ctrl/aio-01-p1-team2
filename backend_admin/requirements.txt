@@ -1,4 +1,4 @@
-﻿# 02_supabase-ai-backend 공통 패키지 목록
+# 02_supabase-ai-backend 공통 패키지 목록
 #
 # 이 파일은 02_supabase-ai-backend 전체 과정에서 사용하는 공통 .venv에 설치할 패키지를 모아 둔 파일입니다.
 # 하위 폴더마다 requirements.txt를 따로 만들지 않고, 최상위 requirements.txt 하나로 관리합니다.
@@ -141,7 +141,7 @@ httpcore==1.0.9
 # - 01_python-git-foundation/02_python-advanced 외부 API 호출
 # - 02_llm-api-integration 외부 HTTPS API 호출
 # - 03_supabase-db-and-auth Supabase/Upstash 연동
-certifi==2026.5.20
+certifi==2026.10.19
 
 # 국제화 도메인 이름 처리를 위한 패키지입니다.
 # httpx/httpcore가 URL을 안전하게 처리할 때 내부적으로 사용합니다.
